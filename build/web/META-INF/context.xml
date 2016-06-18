@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/List_Students">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" 
+            maxActive="20" maxIdle="5" maxWait="10000" name="jdbc/web_student_tracker" 
+            password="webstudent" type="javax.sql.DataSource" 
+            url="jdbc:mysql://localhost:8889/web_student_tracker?useSSL=false" username="webstudent"/>
+</Context>
